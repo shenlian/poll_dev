@@ -7,7 +7,7 @@ CURRENT_SETTINGS_ROOT = os.path.dirname(__file__)
 SETTINGS_ROOT = os.path.split(CURRENT_SETTINGS_ROOT)[0]
 
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
