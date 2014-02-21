@@ -28,7 +28,7 @@ from polls.models import Poll , Choice
 #     p = get_object_or_404(Poll, pk=poll_id)
 #     return render_to_response('polls/results.html',{'poll':p})
 
-def vote(request, poll_id):
+def  vote(request, poll_id):
     p = get_object_or_404(Poll,pk = poll_id)
     try:
         selected_choice = p.choice_set.get(pk=request.POST['choice'])

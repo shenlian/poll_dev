@@ -1,0 +1,1360 @@
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 11:24:14 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir(): No such file or directory [core/uwsgi.c line 2438]
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 18:37:03 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir(): No such file or directory [core/uwsgi.c line 2438]
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 18:45:34 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir(): No such file or directory [core/uwsgi.c line 2438]
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 18:45:41 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir(): No such file or directory [core/uwsgi.c line 2438]
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 18:55:44 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir(): No such file or directory [core/uwsgi.c line 2438]
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 18:59:18 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x235a630
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72752 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10278, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/1] 127.0.0.1 () {38 vars in 748 bytes} [Fri Jan  3 18:59:59 2014] GET /polls/1 => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/2] 127.0.0.1 () {38 vars in 685 bytes} [Fri Jan  3 19:00:00 2014] GET /favicon.ico => generated 21 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/3] 127.0.0.1 () {38 vars in 734 bytes} [Fri Jan  3 19:00:04 2014] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/4] 127.0.0.1 () {38 vars in 685 bytes} [Fri Jan  3 19:00:04 2014] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/5] 127.0.0.1 () {38 vars in 744 bytes} [Fri Jan  3 19:01:28 2014] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/6] 127.0.0.1 () {38 vars in 685 bytes} [Fri Jan  3 19:01:28 2014] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/7] 127.0.0.1 () {40 vars in 775 bytes} [Fri Jan  3 19:01:31 2014] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/8] 127.0.0.1 () {38 vars in 685 bytes} [Fri Jan  3 19:01:31 2014] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/9] 192.168.1.182 () {36 vars in 651 bytes} [Fri Jan  3 19:02:05 2014] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/10] 192.168.1.182 () {36 vars in 592 bytes} [Fri Jan  3 19:02:05 2014] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/11] 192.168.1.182 () {38 vars in 682 bytes} [Fri Jan  3 19:02:09 2014] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/12] 192.168.1.182 () {36 vars in 592 bytes} [Fri Jan  3 19:02:09 2014] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 19:08:18 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/13] 192.168.1.182 () {38 vars in 688 bytes} [Fri Jan  3 19:08:22 2014] GET /admin => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 10278|app: -1|req: -1/14] 192.168.1.182 () {36 vars in 598 bytes} [Fri Jan  3 19:08:22 2014] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 19:09:42 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xe64630
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72752 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10388, cores: 1)
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 19:13:47 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x23c4630
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72752 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10410, cores: 1)
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 19:15:53 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1856630
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72752 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10422, cores: 1)
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 19:16:32 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir(): No such file or directory [core/uwsgi.c line 2438]
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 19:16:41 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1658630
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72752 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+ImportError: No module named py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 10437, cores: 1)
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 19:27:20 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 15277
+limiting address space of processes...
+your process address space limit is 6341787648 bytes (6048 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Listen queue size is greater than the system max net.core.somaxconn (128).
+*** Starting uWSGI 2.0 (64bit) on [Fri Jan  3 19:28:34 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your processes number limit is 15277
+limiting address space of processes...
+your process address space limit is 6341787648 bytes (6048 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Listen queue size is greater than the system max net.core.somaxconn (128).
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 19:35:34 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15277
+limiting address space of processes...
+your process address space limit is 6341787648 bytes (6048 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+Listen queue size is greater than the system max net.core.somaxconn (128).
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 20:34:47 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1453380
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1453380 pid: 17680 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 17680, cores: 1)
+spawned uWSGI worker 2 (pid: 17681, cores: 1)
+spawned uWSGI worker 3 (pid: 17682, cores: 1)
+spawned uWSGI worker 4 (pid: 17683, cores: 1)
+[pid: 17683|app: 0|req: 1/1] 192.168.1.102 () {38 vars in 688 bytes} [Sat Jan 25 20:34:54 2014] GET /polls => generated 0 bytes in 230 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 1/2] 192.168.1.102 () {38 vars in 690 bytes} [Sat Jan 25 20:34:54 2014] GET /polls/ => generated 80 bytes in 189 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 2/3] 192.168.1.102 () {36 vars in 598 bytes} [Sat Jan 25 20:34:54 2014] GET /favicon.ico => generated 2038 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 3/4] 192.168.1.102 () {38 vars in 711 bytes} [Sat Jan 25 20:36:05 2014] GET /polls/1/ => generated 358 bytes in 32 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 2/5] 192.168.1.102 () {48 vars in 966 bytes} [Sat Jan 25 20:36:07 2014] POST /polls/1/vote/ => generated 0 bytes in 143 msecs (HTTP/1.1 302) 2 headers in 116 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 1/6] 192.168.1.102 () {42 vars in 817 bytes} [Sat Jan 25 20:36:07 2014] GET /polls/1/results/ => generated 88 bytes in 133 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 4/7] 192.168.1.102 () {38 vars in 714 bytes} [Sat Jan 25 20:36:13 2014] GET /admin => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 5/8] 192.168.1.102 () {38 vars in 716 bytes} [Sat Jan 25 20:36:13 2014] GET /admin/ => generated 1917 bytes in 660 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 1/9] 192.168.1.102 () {38 vars in 748 bytes} [Sat Jan 25 20:40:02 2014] GET / => generated 2005 bytes in 115 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 3/10] 192.168.1.102 () {38 vars in 699 bytes} [Sat Jan 25 20:40:02 2014] GET /favicon.ico => generated 2038 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 2/11] 192.168.1.102 () {38 vars in 758 bytes} [Sat Jan 25 20:40:08 2014] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 6/12] 192.168.1.102 () {38 vars in 760 bytes} [Sat Jan 25 20:40:08 2014] GET /admin/ => generated 1917 bytes in 224 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 7/13] 192.168.1.101 () {38 vars in 977 bytes} [Sat Jan 25 20:41:41 2014] GET / => generated 2005 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 3/14] 192.168.1.101 () {40 vars in 1041 bytes} [Sat Jan 25 20:41:41 2014] GET /favicon.ico => generated 2038 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 4/15] 192.168.1.102 () {38 vars in 758 bytes} [Sat Jan 25 20:43:39 2014] GET /polls => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 5/16] 192.168.1.102 () {38 vars in 760 bytes} [Sat Jan 25 20:43:39 2014] GET /polls/ => generated 80 bytes in 9 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 4/17] 192.168.1.101 () {38 vars in 987 bytes} [Sat Jan 25 20:44:58 2014] GET /polls => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 5/18] 192.168.1.101 () {38 vars in 989 bytes} [Sat Jan 25 20:44:58 2014] GET /polls/ => generated 80 bytes in 9 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 8/19] 192.168.1.101 () {40 vars in 1047 bytes} [Sat Jan 25 20:44:58 2014] GET /favicon.ico => generated 2038 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 6/20] 192.168.1.101 () {40 vars in 1041 bytes} [Sat Jan 25 20:45:03 2014] GET /polls/1/ => generated 358 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 2/21] 192.168.1.101 () {42 vars in 1106 bytes} [Sat Jan 25 20:45:03 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 7/22] 192.168.1.101 () {48 vars in 1265 bytes} [Sat Jan 25 20:45:09 2014] POST /polls/1/vote/ => generated 0 bytes in 84 msecs (HTTP/1.1 302) 2 headers in 116 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 8/23] 192.168.1.101 () {44 vars in 1156 bytes} [Sat Jan 25 20:45:10 2014] GET /polls/1/results/ => generated 88 bytes in 11 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 9/24] 192.168.1.101 () {42 vars in 1114 bytes} [Sat Jan 25 20:45:10 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 10/25] 192.168.1.101 () {42 vars in 1108 bytes} [Sat Jan 25 20:45:12 2014] GET /polls/1/ => generated 358 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 11/26] 192.168.1.101 () {42 vars in 1106 bytes} [Sat Jan 25 20:45:12 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 12/27] 192.168.1.101 () {40 vars in 1044 bytes} [Sat Jan 25 20:46:10 2014] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 13/28] 192.168.1.101 () {40 vars in 1046 bytes} [Sat Jan 25 20:46:10 2014] GET /admin/ => generated 1917 bytes in 157 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 14/29] 192.168.1.101 () {42 vars in 1148 bytes} [Sat Jan 25 20:46:10 2014] GET /favicon.ico => generated 2038 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 15/30] 192.168.1.101 () {48 vars in 1295 bytes} [Sat Jan 25 20:46:30 2014] POST /admin/ => generated 2082 bytes in 345 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 16/31] 192.168.1.101 () {42 vars in 1148 bytes} [Sat Jan 25 20:46:31 2014] GET /favicon.ico => generated 2038 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 17/32] 192.168.1.101 () {48 vars in 1295 bytes} [Sat Jan 25 20:46:39 2014] POST /admin/ => generated 0 bytes in 575 msecs (HTTP/1.1 302) 7 headers in 363 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 18/33] 192.168.1.101 () {44 vars in 1178 bytes} [Sat Jan 25 20:46:40 2014] GET /admin/ => generated 4096 bytes in 572 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 3/34] 192.168.1.101 () {42 vars in 1148 bytes} [Sat Jan 25 20:46:41 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 19/35] 192.168.1.101 () {42 vars in 1160 bytes} [Sat Jan 25 20:46:45 2014] GET /admin/auth/group/ => generated 3252 bytes in 234 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 20/36] 192.168.1.101 () {42 vars in 997 bytes} [Sat Jan 25 20:46:45 2014] GET /admin/jsi18n/ => generated 5309 bytes in 143 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 21/37] 192.168.1.101 () {42 vars in 1159 bytes} [Sat Jan 25 20:46:46 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 9/38] 192.168.1.101 () {42 vars in 1150 bytes} [Sat Jan 25 20:46:48 2014] GET /admin/sites/ => generated 2092 bytes in 78 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 22/39] 192.168.1.101 () {42 vars in 1154 bytes} [Sat Jan 25 20:46:48 2014] GET /favicon.ico => generated 2038 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 23/40] 192.168.1.101 () {42 vars in 1160 bytes} [Sat Jan 25 20:46:50 2014] GET /admin/polls/poll/ => generated 5853 bytes in 247 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 24/41] 192.168.1.101 () {42 vars in 1159 bytes} [Sat Jan 25 20:46:51 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 25/42] 192.168.1.101 () {42 vars in 1175 bytes} [Sat Jan 25 20:46:58 2014] GET /admin/polls/poll/1/ => generated 12978 bytes in 212 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 26/43] 192.168.1.101 () {42 vars in 1161 bytes} [Sat Jan 25 20:46:59 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 27/44] 192.168.1.100 () {40 vars in 1030 bytes} [Sat Jan 25 20:49:06 2014] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 28/45] 192.168.1.100 () {40 vars in 1032 bytes} [Sat Jan 25 20:49:06 2014] GET /admin/ => generated 1917 bytes in 181 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 29/46] 192.168.1.100 () {42 vars in 1160 bytes} [Sat Jan 25 20:49:06 2014] GET /favicon.ico => generated 2038 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 30/47] 192.168.1.100 () {48 vars in 1307 bytes} [Sat Jan 25 20:49:30 2014] POST /admin/ => generated 0 bytes in 389 msecs (HTTP/1.1 302) 7 headers in 363 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 31/48] 192.168.1.100 () {44 vars in 1190 bytes} [Sat Jan 25 20:49:30 2014] GET /admin/ => generated 4096 bytes in 47 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 4/49] 192.168.1.100 () {42 vars in 1160 bytes} [Sat Jan 25 20:49:30 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 32/50] 192.168.1.100 () {42 vars in 1170 bytes} [Sat Jan 25 20:50:27 2014] GET /admin/auth/user/ => generated 6087 bytes in 82 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 33/51] 192.168.1.100 () {42 vars in 1008 bytes} [Sat Jan 25 20:50:27 2014] GET /admin/jsi18n/ => generated 5309 bytes in 20 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 5/52] 192.168.1.100 () {42 vars in 1170 bytes} [Sat Jan 25 20:50:28 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 34/53] 192.168.1.100 () {42 vars in 1184 bytes} [Sat Jan 25 20:51:26 2014] GET /admin/auth/user/1/ => generated 13190 bytes in 181 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 6/54] 192.168.1.100 () {42 vars in 1172 bytes} [Sat Jan 25 20:51:26 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 35/55] 192.168.1.100 () {42 vars in 1170 bytes} [Sat Jan 25 20:51:46 2014] GET /admin/auth/ => generated 2451 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 36/56] 192.168.1.100 () {42 vars in 1165 bytes} [Sat Jan 25 20:51:46 2014] GET /favicon.ico => generated 2038 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 37/57] 192.168.1.102 () {40 vars in 812 bytes} [Sat Jan 25 20:53:17 2014] GET /polls/1/ => generated 358 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 10/58] 192.168.1.102 () {40 vars in 791 bytes} [Sat Jan 25 21:05:18 2014] GET /polls/ => generated 80 bytes in 86 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 11/59] 192.168.1.102 () {38 vars in 748 bytes} [Sat Jan 25 21:15:32 2014] GET / => generated 2005 bytes in 16 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:15:44 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17680|app: 0|req: 6/60] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:15:47 2014] GET / => generated 2005 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 12/61] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:21:22 2014] GET / => generated 2005 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 7/62] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:21:24 2014] GET / => generated 2005 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 8/63] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:21:25 2014] GET / => generated 2005 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 13/64] 192.168.1.102 () {38 vars in 758 bytes} [Sat Jan 25 21:21:30 2014] GET /polls => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 14/65] 192.168.1.102 () {38 vars in 760 bytes} [Sat Jan 25 21:21:30 2014] GET /polls/ => generated 80 bytes in 11 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 38/66] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:24:15 2014] GET / => generated 2005 bytes in 6 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:24:21 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17680|app: 0|req: 9/67] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:24:24 2014] GET / => generated 2005 bytes in 18 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 39/68] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:24:25 2014] GET / => generated 2005 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 7/69] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:24:26 2014] GET / => generated 2005 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 10/70] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:24:26 2014] GET / => generated 2005 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 15/71] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:24:27 2014] GET / => generated 2005 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 40/72] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:24:27 2014] GET / => generated 2005 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 16/73] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:25:32 2014] GET / => generated 2005 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:25:56 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17680|app: 0|req: 11/74] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:25:59 2014] GET / => generated 2005 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 17/75] 192.168.1.102 () {38 vars in 760 bytes} [Sat Jan 25 21:26:43 2014] GET /polls/ => generated 80 bytes in 14 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 41/76] 192.168.1.102 () {38 vars in 758 bytes} [Sat Jan 25 21:26:47 2014] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 42/77] 192.168.1.102 () {38 vars in 760 bytes} [Sat Jan 25 21:26:47 2014] GET /admin/ => generated 1917 bytes in 230 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 12/78] 192.168.1.102 () {38 vars in 748 bytes} [Sat Jan 25 21:28:28 2014] GET / => generated 2005 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:28:43 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17683|app: 0|req: 18/79] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:28:45 2014] GET / => generated 2005 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 19/80] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:28:46 2014] GET / => generated 2005 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 20/81] 192.168.1.102 () {40 vars in 779 bytes} [Sat Jan 25 21:28:48 2014] GET / => generated 2005 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 21/82] 192.168.1.102 () {38 vars in 756 bytes} [Sat Jan 25 21:31:18 2014] GET /home => generated 2017 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:31:28 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17683|app: 0|req: 22/83] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:31:32 2014] GET /home => generated 2017 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 13/84] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:31:33 2014] GET /home => generated 2017 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 14/85] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:31:34 2014] GET /home => generated 2017 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:31:53 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17680|app: 0|req: 15/86] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:31:55 2014] GET /home => generated 2017 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 16/87] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:31:57 2014] GET /home => generated 2017 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 17/88] 192.168.1.102 () {38 vars in 756 bytes} [Sat Jan 25 21:32:10 2014] GET /home => generated 2017 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:35:20 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17681|app: 0|req: 8/89] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:35:25 2014] GET /home => generated 2017 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 23/90] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:35:27 2014] GET /home => generated 2017 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 24/91] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:35:28 2014] GET /home => generated 2017 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 25/92] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:35:28 2014] GET /home => generated 2017 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:37:06 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17682|app: 0|req: 43/93] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:10 2014] GET /home => generated 2017 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 18/94] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:12 2014] GET /home => generated 2017 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 26/95] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:12 2014] GET /home => generated 2017 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 27/96] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:12 2014] GET /home => generated 2017 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 28/97] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:12 2014] GET /home => generated 2017 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 9/98] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:13 2014] GET /home => generated 2017 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 29/99] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:13 2014] GET /home => generated 2017 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 30/100] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:13 2014] GET /home => generated 2017 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 31/101] 192.168.1.102 () {40 vars in 787 bytes} [Sat Jan 25 21:37:14 2014] GET /home => generated 2017 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:45:16 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17680|app: 0|req: 19/102] 192.168.1.102 () {38 vars in 748 bytes} [Sat Jan 25 21:45:46 2014] GET / => generated 2005 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 20/103] 192.168.1.102 () {38 vars in 699 bytes} [Sat Jan 25 21:45:46 2014] GET /favicon.ico => generated 2038 bytes in 6 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 32/104] 192.168.1.102 () {38 vars in 758 bytes} [Sat Jan 25 21:47:07 2014] GET /polls => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 44/105] 192.168.1.102 () {38 vars in 760 bytes} [Sat Jan 25 21:47:07 2014] GET /polls/ => generated 80 bytes in 7 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 45/106] 192.168.1.102 () {40 vars in 812 bytes} [Sat Jan 25 21:47:09 2014] GET /polls/1/ => generated 358 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 33/107] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:40 2014] GET /polls/1/ => generated 358 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 34/108] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:43 2014] GET /polls/1/ => generated 358 bytes in 128 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 35/109] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:43 2014] GET /polls/1/ => generated 358 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 46/110] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:43 2014] GET /polls/1/ => generated 358 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 21/111] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:43 2014] GET /polls/1/ => generated 358 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 10/112] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:44 2014] GET /polls/1/ => generated 358 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 47/113] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:44 2014] GET /polls/1/ => generated 358 bytes in 37 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 22/114] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:45 2014] GET /polls/1/ => generated 358 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 36/115] 192.168.1.102 () {42 vars in 843 bytes} [Sat Jan 25 21:48:46 2014] GET /polls/1/ => generated 358 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 37/116] 192.168.1.102 () {38 vars in 756 bytes} [Sat Jan 25 21:48:50 2014] GET /home => generated 2017 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 38/117] 192.168.1.102 () {36 vars in 604 bytes} [Sat Jan 25 21:49:03 2014] GET /home => generated 2017 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 39/118] 192.168.1.102 () {36 vars in 588 bytes} [Sat Jan 25 21:49:03 2014] GET /favicon.ico => generated 2038 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 40/119] 192.168.1.102 () {36 vars in 618 bytes} [Sat Jan 25 21:49:03 2014] GET /favicon.ico => generated 2038 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 23/120] 192.168.1.102 () {38 vars in 758 bytes} [Sat Jan 25 21:49:36 2014] GET /polls => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 41/121] 192.168.1.102 () {38 vars in 760 bytes} [Sat Jan 25 21:49:36 2014] GET /polls/ => generated 80 bytes in 7 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 11/122] 192.168.1.102 () {40 vars in 812 bytes} [Sat Jan 25 21:49:38 2014] GET /polls/1/ => generated 358 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 24/123] 192.168.1.102 () {48 vars in 1010 bytes} [Sat Jan 25 21:49:40 2014] POST /polls/1/vote/ => generated 413 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 42/124] 192.168.1.102 () {48 vars in 1015 bytes} [Sat Jan 25 21:49:42 2014] POST /polls/1/vote/ => generated 0 bytes in 124 msecs (HTTP/1.1 302) 2 headers in 116 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 48/125] 192.168.1.102 () {42 vars in 866 bytes} [Sat Jan 25 21:49:42 2014] GET /polls/1/results/ => generated 88 bytes in 7 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 43/126] 192.168.1.102 () {36 vars in 606 bytes} [Sat Jan 25 21:49:52 2014] GET /polls => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 12/127] 192.168.1.102 () {36 vars in 608 bytes} [Sat Jan 25 21:49:52 2014] GET /polls/ => generated 80 bytes in 52 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 44/128] 192.168.1.102 () {38 vars in 660 bytes} [Sat Jan 25 21:49:54 2014] GET /polls/1/ => generated 358 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 25/129] 192.168.1.102 () {44 vars in 844 bytes} [Sat Jan 25 21:49:55 2014] POST /polls/1/vote/ => generated 0 bytes in 132 msecs (HTTP/1.1 302) 2 headers in 116 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 49/130] 192.168.1.102 () {40 vars in 735 bytes} [Sat Jan 25 21:49:56 2014] GET /polls/1/results/ => generated 88 bytes in 7 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sat Jan 25 21:55:40 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 17683|app: 0|req: 45/131] 192.168.1.102 () {38 vars in 653 bytes} [Sat Jan 25 21:55:53 2014] GET / => generated 2005 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 46/132] 192.168.1.102 () {40 vars in 684 bytes} [Sat Jan 25 21:57:04 2014] GET / => generated 2005 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 47/133] 192.168.1.102 () {38 vars in 665 bytes} [Sat Jan 25 21:57:08 2014] GET /polls/ => generated 80 bytes in 40 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17680|app: 0|req: 26/134] 192.168.1.102 () {40 vars in 717 bytes} [Sat Jan 25 21:57:10 2014] GET /polls/1/ => generated 358 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17681|app: 0|req: 13/135] 192.168.1.102 () {44 vars in 844 bytes} [Sat Jan 25 21:57:11 2014] POST /polls/1/vote/ => generated 0 bytes in 86 msecs (HTTP/1.1 302) 2 headers in 116 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 48/136] 192.168.1.102 () {40 vars in 735 bytes} [Sat Jan 25 21:57:11 2014] GET /polls/1/results/ => generated 89 bytes in 10 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 49/137] 192.168.1.102 () {40 vars in 727 bytes} [Sat Jan 25 21:57:14 2014] GET /polls/1/ => generated 358 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17682|app: 0|req: 50/138] 192.168.1.102 () {44 vars in 844 bytes} [Sat Jan 25 21:57:15 2014] POST /polls/1/vote/ => generated 0 bytes in 70 msecs (HTTP/1.1 302) 2 headers in 116 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 50/139] 192.168.1.102 () {40 vars in 735 bytes} [Sat Jan 25 21:57:15 2014] GET /polls/1/results/ => generated 89 bytes in 15 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 51/140] 192.168.1.102 () {38 vars in 669 bytes} [Sat Jan 25 22:03:04 2014] GET /polls/1/ => generated 358 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 17683|app: 0|req: 52/141] 192.168.1.102 () {38 vars in 669 bytes} [Sat Jan 25 22:03:07 2014] GET /polls/1/ => generated 358 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 17:48:42 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf12330
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf12330 pid: 5394 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 5394, cores: 1)
+spawned uWSGI worker 2 (pid: 5395, cores: 1)
+spawned uWSGI worker 3 (pid: 5396, cores: 1)
+spawned uWSGI worker 4 (pid: 5397, cores: 1)
+[pid: 5395|app: 0|req: 1/1] 192.168.1.102 () {38 vars in 753 bytes} [Tue Jan 28 17:48:54 2014] GET / => generated 2004 bytes in 126 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5395|app: 0|req: 2/2] 192.168.1.102 () {38 vars in 704 bytes} [Tue Jan 28 17:48:54 2014] GET /favicon.ico => generated 2037 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 1/3] 192.168.1.102 () {38 vars in 761 bytes} [Tue Jan 28 17:49:00 2014] GET /home => generated 0 bytes in 110 msecs (HTTP/1.1 301) 2 headers in 117 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 1/4] 192.168.1.102 () {38 vars in 763 bytes} [Tue Jan 28 17:49:00 2014] GET /home/ => generated 3182 bytes in 109 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 17:51:13 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 5395|app: 0|req: 3/5] 192.168.1.102 () {38 vars in 753 bytes} [Tue Jan 28 17:51:18 2014] GET / => generated 2004 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 2/6] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:51:20 2014] GET / => generated 2004 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 2/7] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:51:21 2014] GET / => generated 2004 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5395|app: 0|req: 4/8] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:51:22 2014] GET / => generated 2004 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5396|app: 0|req: 1/9] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:51:53 2014] GET / => generated 2111 bytes in 152 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 3/10] 192.168.1.102 () {38 vars in 761 bytes} [Tue Jan 28 17:52:03 2014] GET /home => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 117 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 4/11] 192.168.1.102 () {38 vars in 763 bytes} [Tue Jan 28 17:52:03 2014] GET /home/ => generated 3182 bytes in 2 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 5/12] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:53:31 2014] GET /home/ => generated 3182 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 6/13] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:54:13 2014] GET /home/ => generated 3182 bytes in 5 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 3/14] 192.168.1.102 () {38 vars in 753 bytes} [Tue Jan 28 17:54:16 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 17:54:28 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 5397|app: 0|req: 7/15] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:54:30 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 17:54:55 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 5397|app: 0|req: 8/16] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:55:02 2014] GET / => generated 2004 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 9/17] 192.168.1.102 () {38 vars in 763 bytes} [Tue Jan 28 17:55:07 2014] GET /polls => generated 2019 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 4/18] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:55:24 2014] GET /polls => generated 2019 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 10/19] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:55:46 2014] GET /polls => generated 2019 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 11/20] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:55:48 2014] GET /polls => generated 2019 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 12/21] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:55:48 2014] GET /polls => generated 2019 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 5/22] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:55:48 2014] GET /polls => generated 2019 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 6/23] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:55:48 2014] GET /polls => generated 2019 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 17:56:03 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 5394|app: 0|req: 7/24] 192.168.1.102 () {40 vars in 794 bytes} [Tue Jan 28 17:56:06 2014] GET /polls => generated 2019 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 8/25] 192.168.1.102 () {38 vars in 753 bytes} [Tue Jan 28 17:56:09 2014] GET / => generated 2004 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 9/26] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:56:20 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 10/27] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:56:39 2014] GET / => generated 2004 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 17:56:46 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 5394|app: 0|req: 11/28] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:56:54 2014] GET / => generated 2004 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 12/29] 192.168.1.102 () {40 vars in 784 bytes} [Tue Jan 28 17:56:55 2014] GET / => generated 2004 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 13/30] 192.168.1.102 () {36 vars in 662 bytes} [Tue Jan 28 17:57:11 2014] GET /polls => generated 2019 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 13/31] 192.168.1.102 () {36 vars in 603 bytes} [Tue Jan 28 17:57:11 2014] GET /favicon.ico => generated 2037 bytes in 6 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 17:57:55 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 5397|app: 0|req: 14/32] 192.168.1.102 () {38 vars in 693 bytes} [Tue Jan 28 17:58:25 2014] GET /polls => generated 2019 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5395|app: 0|req: 5/33] 192.168.1.102 () {36 vars in 652 bytes} [Tue Jan 28 17:58:29 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 14/34] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:33 2014] GET / => generated 2004 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5396|app: 0|req: 2/35] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:34 2014] GET / => generated 2111 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 15/36] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:35 2014] GET / => generated 2004 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 16/37] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:35 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 17/38] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:36 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 18/39] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:37 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 19/40] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:39 2014] GET / => generated 2004 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 20/41] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:41 2014] GET / => generated 2004 bytes in 6 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 21/42] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:42 2014] GET / => generated 2004 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 15/43] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:43 2014] GET / => generated 2004 bytes in 6 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 16/44] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:53 2014] GET / => generated 2004 bytes in 6 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 22/45] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:55 2014] GET / => generated 2004 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 23/46] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:55 2014] GET / => generated 2004 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 17/47] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:58 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5395|app: 0|req: 6/48] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:59 2014] GET / => generated 2004 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 24/49] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:58:59 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 18/50] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:59:00 2014] GET / => generated 2004 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 19/51] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:59:00 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 25/52] 192.168.1.102 () {36 vars in 662 bytes} [Tue Jan 28 17:59:00 2014] GET /polls => generated 2019 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 26/53] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 17:59:06 2014] GET / => generated 2004 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 27/54] 192.168.1.102 () {36 vars in 662 bytes} [Tue Jan 28 17:59:15 2014] GET /polls => generated 2019 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 28/55] 192.168.1.102 () {38 vars in 693 bytes} [Tue Jan 28 18:00:35 2014] GET /polls => generated 2019 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 29/56] 192.168.1.102 () {38 vars in 693 bytes} [Tue Jan 28 18:02:14 2014] GET /polls => generated 2019 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 30/57] 192.168.1.102 () {38 vars in 693 bytes} [Tue Jan 28 18:02:15 2014] GET /polls => generated 2019 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 20/58] 192.168.1.102 () {36 vars in 660 bytes} [Tue Jan 28 18:02:39 2014] GET /home => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 117 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 31/59] 192.168.1.102 () {36 vars in 662 bytes} [Tue Jan 28 18:02:39 2014] GET /home/ => generated 3182 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 32/60] 192.168.1.102 () {36 vars in 652 bytes} [Tue Jan 28 18:02:46 2014] GET / => generated 2004 bytes in 18 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 21/61] 192.168.1.102 () {36 vars in 652 bytes} [Tue Jan 28 18:12:21 2014] GET / => generated 2004 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5396|app: 0|req: 3/62] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:12:42 2014] GET / => generated 2111 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 22/63] 192.168.1.102 () {36 vars in 662 bytes} [Tue Jan 28 18:12:50 2014] GET /polls => generated 2019 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 23/64] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:34 2014] GET / => generated 2004 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 24/65] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:35 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 25/66] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:37 2014] GET / => generated 2004 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 33/67] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:37 2014] GET / => generated 2004 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 26/68] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:38 2014] GET / => generated 2004 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5395|app: 0|req: 7/69] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:38 2014] GET / => generated 2004 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 34/70] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:38 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 35/71] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:39 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 36/72] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:48 2014] GET / => generated 2004 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 37/73] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:49 2014] GET / => generated 2004 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 27/74] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:49 2014] GET / => generated 2004 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 38/75] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:50 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 28/76] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:50 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 29/77] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:50 2014] GET / => generated 2004 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 30/78] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:50 2014] GET / => generated 2004 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5396|app: 0|req: 4/79] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:51 2014] GET / => generated 2111 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 31/80] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:51 2014] GET / => generated 2004 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 39/81] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:51 2014] GET / => generated 2004 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 40/82] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:51 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 41/83] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:52 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5396|app: 0|req: 5/84] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:52 2014] GET / => generated 2111 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 42/85] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:13:53 2014] GET / => generated 2004 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 18:14:00 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 5397|app: 0|req: 43/86] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:14:02 2014] GET / => generated 2004 bytes in 13 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 44/87] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:14:03 2014] GET / => generated 2004 bytes in 12 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 45/88] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:14:03 2014] GET / => generated 2004 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 32/89] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:14:04 2014] GET / => generated 2004 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 46/90] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:14:04 2014] GET / => generated 2004 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 33/91] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:14:05 2014] GET / => generated 2004 bytes in 17 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5394|app: 0|req: 34/92] 192.168.1.102 () {38 vars in 683 bytes} [Tue Jan 28 18:14:06 2014] GET / => generated 2004 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 47/93] 192.168.1.102 () {36 vars in 662 bytes} [Tue Jan 28 18:15:05 2014] GET /polls => generated 2019 bytes in 6 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5397|app: 0|req: 48/94] 192.168.1.102 () {36 vars in 603 bytes} [Tue Jan 28 18:15:05 2014] GET /favicon.ico => generated 2037 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 18:22:57 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16a5380
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x16a5380 pid: 2717 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2717, cores: 1)
+spawned uWSGI worker 2 (pid: 2718, cores: 1)
+spawned uWSGI worker 3 (pid: 2719, cores: 1)
+spawned uWSGI worker 4 (pid: 2720, cores: 1)
+[pid: 2720|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 675 bytes} [Tue Jan 28 18:22:59 2014] GET / => generated 2107 bytes in 1836 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2718|app: 0|req: 1/2] 127.0.0.1 () {36 vars in 595 bytes} [Tue Jan 28 18:23:01 2014] GET /favicon.ico => generated 2140 bytes in 141 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2717|app: 0|req: 1/3] 127.0.0.1 () {38 vars in 675 bytes} [Tue Jan 28 20:09:04 2014] GET / => generated 2107 bytes in 112 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2717|app: 0|req: 2/4] 127.0.0.1 () {38 vars in 675 bytes} [Tue Jan 28 20:09:06 2014] GET / => generated 2107 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2717|app: 0|req: 3/5] 127.0.0.1 () {36 vars in 652 bytes} [Tue Jan 28 20:09:11 2014] GET /home => generated 0 bytes in 60 msecs (HTTP/1.1 301) 2 headers in 113 bytes (1 switches on core 0)
+[pid: 2717|app: 0|req: 4/6] 127.0.0.1 () {36 vars in 654 bytes} [Tue Jan 28 20:09:11 2014] GET /home/ => generated 3182 bytes in 277 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 20:12:41 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8077).
+bind(): Address already in use [core/socket.c line 779]
+[pid: 2720|app: 0|req: 2/7] 127.0.0.1 () {38 vars in 685 bytes} [Tue Jan 28 20:13:01 2014] GET /home/ => generated 3182 bytes in 7 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 2720|app: 0|req: 3/8] 127.0.0.1 () {36 vars in 644 bytes} [Tue Jan 28 20:13:06 2014] GET / => generated 2107 bytes in 11 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Tue Jan 28 20:18:34 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf78380
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 7 seconds on interpreter 0xf78380 pid: 2487 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2487, cores: 1)
+spawned uWSGI worker 2 (pid: 2549, cores: 1)
+spawned uWSGI worker 3 (pid: 2550, cores: 1)
+spawned uWSGI worker 4 (pid: 2551, cores: 1)
+[pid: 2549|app: 0|req: 1/1] 192.168.1.102 () {36 vars in 652 bytes} [Tue Jan 28 20:19:01 2014] GET / => generated 2108 bytes in 1159 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2549|app: 0|req: 2/2] 192.168.1.102 () {36 vars in 603 bytes} [Tue Jan 28 20:19:03 2014] GET /favicon.ico => generated 2141 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Wed Jan 29 20:54:56 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xaa4390
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xaa4390 pid: 24085 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 24085, cores: 1)
+spawned uWSGI worker 2 (pid: 24099, cores: 1)
+spawned uWSGI worker 3 (pid: 24100, cores: 1)
+spawned uWSGI worker 4 (pid: 24101, cores: 1)
+[pid: 24085|app: 0|req: 1/1] 192.168.1.101 () {36 vars in 652 bytes} [Wed Jan 29 20:59:12 2014] GET / => generated 2108 bytes in 1234 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 24101|app: 0|req: 1/2] 192.168.1.101 () {36 vars in 603 bytes} [Wed Jan 29 20:59:14 2014] GET /favicon.ico => generated 2141 bytes in 136 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Wed Jan 29 21:01:24 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x143e390
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x143e390 pid: 29270 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 29270, cores: 1)
+spawned uWSGI worker 2 (pid: 29274, cores: 1)
+spawned uWSGI worker 3 (pid: 29275, cores: 1)
+spawned uWSGI worker 4 (pid: 29276, cores: 1)
+[pid: 29274|app: 0|req: 1/1] 192.168.1.101 () {38 vars in 683 bytes} [Wed Jan 29 21:01:33 2014] GET / => generated 2111 bytes in 169 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 29270|app: 0|req: 1/2] 192.168.1.101 () {36 vars in 660 bytes} [Wed Jan 29 21:01:39 2014] GET /home => generated 0 bytes in 150 msecs (HTTP/1.1 301) 2 headers in 117 bytes (1 switches on core 0)
+[pid: 29270|app: 0|req: 2/3] 192.168.1.101 () {36 vars in 662 bytes} [Wed Jan 29 21:01:39 2014] GET /home/ => generated 3182 bytes in 373 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Wed Jan 29 21:04:02 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x110e390
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x110e390 pid: 29786 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 29786, cores: 1)
+spawned uWSGI worker 2 (pid: 29787, cores: 1)
+spawned uWSGI worker 3 (pid: 29788, cores: 1)
+spawned uWSGI worker 4 (pid: 29789, cores: 1)
+[pid: 29789|app: 0|req: 1/1] 192.168.1.101 () {38 vars in 693 bytes} [Wed Jan 29 21:04:07 2014] GET /home/ => generated 2122 bytes in 123 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 29789|app: 0|req: 2/2] 192.168.1.101 () {36 vars in 652 bytes} [Wed Jan 29 21:04:11 2014] GET / => generated 3182 bytes in 5 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sun Feb  2 16:43:54 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1056380
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1056380 pid: 5278 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 5278, cores: 1)
+spawned uWSGI worker 2 (pid: 5279, cores: 1)
+spawned uWSGI worker 3 (pid: 5280, cores: 1)
+spawned uWSGI worker 4 (pid: 5281, cores: 1)
+[pid: 5280|app: 0|req: 1/1] 192.168.1.100 () {38 vars in 693 bytes} [Sun Feb  2 16:45:10 2014] GET /polls => generated 0 bytes in 1012 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 5280|app: 0|req: 2/2] 192.168.1.100 () {38 vars in 695 bytes} [Sun Feb  2 16:45:11 2014] GET /polls/ => generated 80 bytes in 588 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 5281|app: 0|req: 1/3] 192.168.1.100 () {36 vars in 603 bytes} [Sun Feb  2 16:45:12 2014] GET /favicon.ico => generated 2140 bytes in 124 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5281|app: 0|req: 2/4] 192.168.1.100 () {36 vars in 652 bytes} [Sun Feb  2 16:45:18 2014] GET / => generated 3182 bytes in 138 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 5279|app: 0|req: 1/5] 110.200.67.171 () {36 vars in 654 bytes} [Sun Feb  2 16:45:27 2014] GET / => generated 3182 bytes in 116 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 5281|app: 0|req: 3/6] 110.200.67.171 () {36 vars in 605 bytes} [Sun Feb  2 16:45:28 2014] GET /favicon.ico => generated 2141 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 5281|app: 0|req: 4/7] 211.103.26.89 () {40 vars in 867 bytes} [Sun Feb  2 16:47:53 2014] GET / => generated 3182 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 5278|app: 0|req: 1/8] 211.103.26.89 () {42 vars in 932 bytes} [Sun Feb  2 16:47:57 2014] GET /favicon.ico => generated 2141 bytes in 125 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Sun Feb  2 22:15:05 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-45-generic #68~precise1-Ubuntu SMP Wed Dec 4 16:18:46 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15276
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x99a720
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x99a720 pid: 4060 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 4060, cores: 1)
+spawned uWSGI worker 2 (pid: 4061, cores: 1)
+spawned uWSGI worker 3 (pid: 4062, cores: 1)
+spawned uWSGI worker 4 (pid: 4063, cores: 1)
+[pid: 4060|app: 0|req: 1/1] 110.200.69.99 () {36 vars in 654 bytes} [Sun Feb  2 22:15:31 2014] GET / => generated 3182 bytes in 940 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 2/2] 110.200.69.99 () {36 vars in 605 bytes} [Sun Feb  2 22:15:32 2014] GET /favicon.ico => generated 2140 bytes in 15 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 3/3] 222.42.14.46 () {36 vars in 652 bytes} [Sun Feb  2 22:20:58 2014] GET / => generated 3182 bytes in 2 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 1/4] 222.42.14.46 () {36 vars in 603 bytes} [Sun Feb  2 22:20:58 2014] GET /favicon.ico => generated 2139 bytes in 137 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 2/5] 222.42.14.46 () {36 vars in 661 bytes} [Sun Feb  2 22:34:29 2014] GET / => generated 3182 bytes in 6 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 3/6] 222.42.14.46 () {36 vars in 612 bytes} [Sun Feb  2 22:34:29 2014] GET /favicon.ico => generated 2148 bytes in 6 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 4/7] 222.42.14.46 () {38 vars in 692 bytes} [Sun Feb  2 22:37:39 2014] GET / => generated 3182 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 4/8] 211.103.26.71 () {40 vars in 1026 bytes} [Sun Feb  2 22:39:38 2014] GET / => generated 3182 bytes in 3 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4061|app: 0|req: 1/9] 211.103.26.71 () {42 vars in 1098 bytes} [Sun Feb  2 22:39:41 2014] GET /favicon.ico => generated 2148 bytes in 115 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 5/10] 222.42.14.46 () {38 vars in 692 bytes} [Sun Feb  2 22:40:38 2014] GET / => generated 3182 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 5/11] 222.42.14.46 () {36 vars in 671 bytes} [Sun Feb  2 22:40:48 2014] GET /polls => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 126 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 6/12] 222.42.14.46 () {36 vars in 673 bytes} [Sun Feb  2 22:40:48 2014] GET /polls/ => generated 80 bytes in 495 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 6/13] 222.42.14.46 () {38 vars in 733 bytes} [Sun Feb  2 22:40:49 2014] GET /polls/1/ => generated 358 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 195 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 7/14] 222.42.14.46 () {48 vars in 996 bytes} [Sun Feb  2 22:40:51 2014] POST /polls/1/vote/ => generated 0 bytes in 121 msecs (HTTP/1.1 302) 2 headers in 124 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 7/15] 222.42.14.46 () {42 vars in 839 bytes} [Sun Feb  2 22:40:51 2014] GET /polls/1/results/ => generated 89 bytes in 10 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 8/16] 222.42.14.46 () {38 vars in 728 bytes} [Sun Feb  2 22:40:56 2014] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 126 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 9/17] 222.42.14.46 () {38 vars in 730 bytes} [Sun Feb  2 22:40:56 2014] GET /admin/ => generated 1917 bytes in 689 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 8/18] 222.42.14.46 () {48 vars in 1026 bytes} [Sun Feb  2 22:41:03 2014] POST /admin/ => generated 0 bytes in 439 msecs (HTTP/1.1 302) 7 headers in 371 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 9/19] 222.42.14.46 () {42 vars in 861 bytes} [Sun Feb  2 22:41:04 2014] GET /admin/ => generated 4096 bytes in 66 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 10/20] 222.42.14.46 () {40 vars in 852 bytes} [Sun Feb  2 22:41:06 2014] GET /admin/polls/poll/ => generated 5853 bytes in 117 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 10/21] 222.42.14.46 () {40 vars in 784 bytes} [Sun Feb  2 22:41:06 2014] GET /admin/jsi18n/ => generated 5309 bytes in 129 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 11/22] 222.42.14.46 () {40 vars in 867 bytes} [Sun Feb  2 22:41:08 2014] GET /admin/polls/poll/1/ => generated 12979 bytes in 173 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 12/23] 222.42.14.46 () {40 vars in 786 bytes} [Sun Feb  2 22:41:08 2014] GET /admin/jsi18n/ => generated 5309 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 11/24] 222.42.14.46 () {40 vars in 857 bytes} [Sun Feb  2 22:41:11 2014] GET /admin/logout/ => generated 1151 bytes in 231 msecs (HTTP/1.1 200) 6 headers in 316 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 12/25] 222.42.14.46 () {40 vars in 819 bytes} [Sun Feb  2 22:41:57 2014] GET /admin/logout/ => generated 0 bytes in 13 msecs (HTTP/1.1 302) 6 headers in 240 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 13/26] 222.42.14.46 () {40 vars in 805 bytes} [Sun Feb  2 22:41:57 2014] GET /admin/ => generated 1917 bytes in 122 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 13/27] 222.42.14.46 () {48 vars in 1026 bytes} [Sun Feb  2 22:41:57 2014] POST /admin/ => generated 2099 bytes in 121 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 4062|app: 0|req: 1/28] 222.42.14.46 () {38 vars in 762 bytes} [Sun Feb  2 22:42:01 2014] GET / => generated 3182 bytes in 123 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 14/29] 222.42.14.46 () {40 vars in 793 bytes} [Sun Feb  2 22:47:25 2014] GET / => generated 3182 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4060|app: 0|req: 15/30] 211.103.26.71 () {40 vars in 1026 bytes} [Sun Feb  2 22:48:02 2014] GET / => generated 3182 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 4063|app: 0|req: 14/31] 211.103.26.71 () {42 vars in 1098 bytes} [Sun Feb  2 22:48:03 2014] GET /favicon.ico => generated 2148 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Mon Feb  3 21:44:21 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-45-generic #68~precise1-Ubuntu SMP Wed Dec 4 16:18:46 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15276
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1168720
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x1168720 pid: 3972 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3972, cores: 1)
+spawned uWSGI worker 2 (pid: 3983, cores: 1)
+spawned uWSGI worker 3 (pid: 3984, cores: 1)
+spawned uWSGI worker 4 (pid: 3985, cores: 1)
+[pid: 3985|app: 0|req: 1/1] 192.168.1.100 () {36 vars in 654 bytes} [Mon Feb  3 22:00:46 2014] GET / => generated 3182 bytes in 1263 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 3984|app: 0|req: 1/2] 192.168.1.100 () {36 vars in 605 bytes} [Mon Feb  3 22:00:47 2014] GET /favicon.ico => generated 2140 bytes in 158 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 3985|app: 0|req: 2/3] 110.114.6.106 () {36 vars in 662 bytes} [Mon Feb  3 22:08:52 2014] GET / => generated 3182 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 3985|app: 0|req: 3/4] 110.114.6.106 () {36 vars in 613 bytes} [Mon Feb  3 22:08:52 2014] GET /favicon.ico => generated 2148 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 3985|app: 0|req: 4/5] 110.114.6.106 () {38 vars in 693 bytes} [Mon Feb  3 22:09:03 2014] GET / => generated 3182 bytes in 3 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 3984|app: 0|req: 2/6] 192.168.1.100 () {36 vars in 666 bytes} [Mon Feb  3 23:31:01 2014] GET /polls/ => generated 80 bytes in 788 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 3972|app: 0|req: 1/7] 192.168.1.100 () {36 vars in 605 bytes} [Mon Feb  3 23:31:02 2014] GET /favicon.ico => generated 2140 bytes in 843 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 3985|app: 0|req: 5/8] 192.168.1.100 () {36 vars in 664 bytes} [Mon Feb  3 23:31:07 2014] GET /admin => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 118 bytes (1 switches on core 0)
+[pid: 3972|app: 0|req: 2/9] 192.168.1.100 () {36 vars in 666 bytes} [Mon Feb  3 23:31:07 2014] GET /admin/ => generated 1917 bytes in 832 msecs (HTTP/1.1 200) 7 headers in 438 bytes (1 switches on core 0)
+[pid: 3984|app: 0|req: 3/10] 192.168.1.100 () {48 vars in 1003 bytes} [Mon Feb  3 23:31:12 2014] POST /admin/ => generated 0 bytes in 657 msecs (HTTP/1.1 302) 7 headers in 363 bytes (1 switches on core 0)
+[pid: 3972|app: 0|req: 3/11] 192.168.1.100 () {42 vars in 846 bytes} [Mon Feb  3 23:31:13 2014] GET /admin/ => generated 4096 bytes in 128 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 3985|app: 0|req: 6/12] 192.168.1.100 () {40 vars in 837 bytes} [Mon Feb  3 23:31:19 2014] GET /admin/polls/poll/ => generated 5853 bytes in 239 msecs (HTTP/1.1 200) 6 headers in 307 bytes (1 switches on core 0)
+[pid: 3984|app: 0|req: 4/13] 192.168.1.100 () {40 vars in 769 bytes} [Mon Feb  3 23:31:19 2014] GET /admin/jsi18n/ => generated 5309 bytes in 115 msecs (HTTP/1.1 200) 2 headers in 64 bytes (1 switches on core 0)
+[pid: 3972|app: 0|req: 4/14] 192.168.1.100 () {40 vars in 815 bytes} [Mon Feb  3 23:31:22 2014] GET /admin/ => generated 4096 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 3985|app: 0|req: 7/15] 192.168.1.100 () {44 vars in 901 bytes} [Mon Feb  3 23:31:52 2014] GET /admin/ => generated 4096 bytes in 55 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+[pid: 3984|app: 0|req: 5/16] 192.168.1.100 () {44 vars in 901 bytes} [Mon Feb  3 23:31:54 2014] GET /admin/ => generated 4096 bytes in 121 msecs (HTTP/1.1 200) 5 headers in 185 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0 (64bit) on [Wed Feb  5 21:04:28 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-45-generic #68~precise1-Ubuntu SMP Wed Dec 4 16:18:46 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15276
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2113720
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2113720 pid: 3179 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3179, cores: 1)
+spawned uWSGI worker 2 (pid: 3180, cores: 1)
+spawned uWSGI worker 3 (pid: 3181, cores: 1)
+spawned uWSGI worker 4 (pid: 3182, cores: 1)
+*** Starting uWSGI 2.0 (64bit) on [Wed Feb  5 21:08:41 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-45-generic #68~precise1-Ubuntu SMP Wed Dec 4 16:18:46 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15276
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1957720
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1957720 pid: 3248 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3248, cores: 1)
+spawned uWSGI worker 2 (pid: 3249, cores: 1)
+spawned uWSGI worker 3 (pid: 3250, cores: 1)
+spawned uWSGI worker 4 (pid: 3251, cores: 1)
+*** Starting uWSGI 2.0 (64bit) on [Sun Feb  9 19:50:39 2014] ***
+compiled with version: 4.7.3 on 02 January 2014 23:11:47
+os: Linux-3.5.0-23-generic #35~precise1-Ubuntu SMP Fri Jan 25 17:13:26 UTC 2013
+nodename: sl-Aspire-4741
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/sl/workspace/poll_dev
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 15277
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8077 fd 3
+Python version: 2.7.4 (default, Sep 26 2013, 03:23:21)  [GCC 4.7.3]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ff1720
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291008 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1ff1720 pid: 2933 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 2933, cores: 1)
+spawned uWSGI worker 2 (pid: 2934, cores: 1)
+spawned uWSGI worker 3 (pid: 2935, cores: 1)
+spawned uWSGI worker 4 (pid: 2936, cores: 1)
+./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/
+[pid: 2936|app: 0|req: 1/1] 110.200.64.128 () {36 vars in 656 bytes} [Sun Feb  9 19:59:38 2014] GET / => generated 3323 bytes in 1052 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/
+./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/
+[pid: 2933|app: 0|req: 1/2] 110.200.64.128 () {38 vars in 751 bytes} [Sun Feb  9 19:59:39 2014] GET /home/sl/workspace/poll_dev/media/css/bootstrap.min.css => generated 2270 bytes in 120 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2935|app: 0|req: 1/3] 110.200.64.128 () {38 vars in 773 bytes} [Sun Feb  9 19:59:39 2014] GET /home/sl/workspace/poll_dev/media/css/bootstrap-responsive.min.css => generated 2303 bytes in 125 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/./media/
+[pid: 2934|app: 0|req: 1/4] 110.200.64.128 () {36 vars in 607 bytes} [Sun Feb  9 19:59:39 2014] GET /favicon.ico => generated 2141 bytes in 109 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2934|app: 0|req: 2/5] 221.221.0.1 () {36 vars in 650 bytes} [Sun Feb  9 20:10:56 2014] GET / => generated 3323 bytes in 3 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 2933|app: 0|req: 2/6] 221.221.0.1 () {38 vars in 742 bytes} [Sun Feb  9 20:10:56 2014] GET /home/sl/workspace/poll_dev/media/css/bootstrap.min.css => generated 2267 bytes in 8 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2934|app: 0|req: 3/7] 221.221.0.1 () {38 vars in 764 bytes} [Sun Feb  9 20:10:56 2014] GET /home/sl/workspace/poll_dev/media/css/bootstrap-responsive.min.css => generated 2300 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2934|app: 0|req: 4/8] 221.221.0.1 () {36 vars in 601 bytes} [Sun Feb  9 20:10:56 2014] GET /favicon.ico => generated 2138 bytes in 10 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2936|app: 0|req: 2/9] 221.221.0.1 () {38 vars in 681 bytes} [Sun Feb  9 20:11:16 2014] GET / => generated 3323 bytes in 5 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 2934|app: 0|req: 5/10] 221.221.0.1 () {40 vars in 773 bytes} [Sun Feb  9 20:11:16 2014] GET /home/sl/workspace/poll_dev/media/css/bootstrap.min.css => generated 2267 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2935|app: 0|req: 2/11] 221.221.0.1 () {40 vars in 795 bytes} [Sun Feb  9 20:11:16 2014] GET /home/sl/workspace/poll_dev/media/css/bootstrap-responsive.min.css => generated 2300 bytes in 9 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2935|app: 0|req: 3/12] 110.200.70.62 () {36 vars in 654 bytes} [Sun Feb  9 20:14:41 2014] GET / => generated 3323 bytes in 7 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 2935|app: 0|req: 4/13] 110.200.70.62 () {38 vars in 770 bytes} [Sun Feb  9 20:14:41 2014] GET /home/sl/workspace/poll_dev/media/css/bootstrap-responsive.min.css => generated 2302 bytes in 14 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2936|app: 0|req: 3/14] 110.200.70.62 () {38 vars in 748 bytes} [Sun Feb  9 20:14:41 2014] GET /home/sl/workspace/poll_dev/media/css/bootstrap.min.css => generated 2269 bytes in 18 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 2936|app: 0|req: 4/15] 110.200.70.62 () {36 vars in 605 bytes} [Sun Feb  9 20:14:41 2014] GET /favicon.ico => generated 2140 bytes in 7 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)

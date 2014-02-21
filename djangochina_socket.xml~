@@ -1,0 +1,10 @@
+<uwsgi>
+    <socket>127.0.0.1:8077</socket>
+    <listen>8000</listen>
+    <master>true</master>
+    <chdir>/home/sl/workspace/poll_dev/</chdir>
+    <module>django_wsgi</module>
+    <limit-as>1024</limit-as>
+    <processes>4</processes> <!-- 进程数 --> 
+    <daemonize>uwsgi.log</daemonize>
+</uwsgi>

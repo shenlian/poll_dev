@@ -23,3 +23,37 @@ class Choice(models.Model):
 
 	def __unicode__(self):
 		return self.choice
+
+
+class Person(models.Model):
+
+
+    SHIRT_SIZES = (
+        (u'S', u'Small'),
+        (u'M', u'Medium'),
+        (u'L', u'Large'),
+    )
+    
+    first_name = models.CharField("Person first name",max_length=30)
+    last_name = models.CharField(max_length=30)
+
+    shirt_size = models.CharField(max_length=2, choices=SHIRT_SIZES)
+
+    def __unicode__(self):
+        return self.first_name +'-'+self.last_name
+
+class Group(models.Model):
+    name = models.CharField(max_length=128)
+    members = models.ManyToManyField(Person, through='Membership')
+
+    def __unicode__(self):
+        return self.name
+
+class Membership(models.Model):
+    person = models.ForeignKey(Person)
+    group = models.ForeignKey(Group)
+    date_joined = models.DateField()
+    invite_reason = models.CharField(max_length=64)
+
+    def __unicode__(self):
+        return self.group.name + '---' + self.person.first_name
