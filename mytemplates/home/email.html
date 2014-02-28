@@ -1,0 +1,20 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+
+{% block content %}
+<h3>发送邮件</h3>
+<form enctype="multipart/form-data" method='post',action='/email/'>
+    {% csrf_token %}
+<!--     {{contactform.subject.label_tag}}
+    {{contactform.subject}}
+    {{contactform.message.label_tag}}
+    {{contactform.message}}
+    {{contactform.sender.label_tag}}
+    {{contactform.sender}}
+    {{contactform.cc_myself.label_tag}}
+    {{contactform.cc_myself}} -->
+    {{ contactform.as_p }}
+    <input type="submit",value="发送邮件">
+</form>
+
+{% endblock %}

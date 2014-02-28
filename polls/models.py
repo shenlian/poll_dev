@@ -1,3 +1,4 @@
+#coding = UTF-8
 from django.db import models
 import datetime
 from django.utils import timezone
@@ -52,8 +53,11 @@ class Group(models.Model):
 class Membership(models.Model):
     person = models.ForeignKey(Person)
     group = models.ForeignKey(Group)
-    date_joined = models.DateField()
+    date_joined = models.DateField()                                        
     invite_reason = models.CharField(max_length=64)
 
     def __unicode__(self):
         return self.group.name + '---' + self.person.first_name
+
+class Pic(models.Model):
+    pic=models.FileField(upload_to=datetime.datetime.now().strftime('album/%m-%Y/'))

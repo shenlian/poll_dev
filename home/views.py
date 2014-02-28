@@ -1,28 +1,63 @@
 # Create your views here.
-#coding = UTF-8
+#coding : UTF-8
 """
     Author : Shenlian
     Time:2013-1-25
 """
-from django.shortcuts import render_to_response,get_object_or_404
+from django.shortcuts import render_to_response,get_object_or_404 ,render
 from django.template import RequestContext
-from django.http import HttpResponse, HttpResponseNotFound
+from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
+from django.views.decorators import csrf
+# Imaginary function to handle an uploaded file.
+from backend.utility import handle_uploaded_file
+from polls.form import *
+from polls.models import * 
+from django.conf import settings
 
 def index(request):
+    # request.session['member_id'] = 123
+    # print 'haha'
+    # print request.session['member_id']
     return render_to_response('home/index.html',context_instance=RequestContext(request))
 
-def test(request):from django.http import HttpResponseRedirect
-from django.shortcuts import render_to_response
+@csrf.csrf_protect
+def uploadfile(request):
+    # print request.session['member_id']
+    if request.method=="POST":
+        uploadform=UpLoadPicForm(request.POST,request.FILES)
+        if uploadform.is_valid():
+            storePic(request.FILES)
+            print request.POST['title']
+            return HttpResponseRedirect('/polls/')
+    else: 
+        uploadform=UpLoadPicForm()
+    return render_to_response('home/upload.html',{"uploadform":uploadform,},context_instance=RequestContext(request))
 
-# Imaginary function to handle an uploaded file.
-from somewhere import handle_uploaded_file
+def storePic(fileobj):
+    newdoc=Pic(pic=fileobj["pic"])
+    newdoc.save()
 
-def upload_file(request):
-    if request.method == 'POST':
-        form = UploadFileForm(request.POST, request.FILES)
-        if form.is_valid():
-            handle_uploaded_file(request.FILES['file'])
-            return HttpResponseRedirect('/success/url/')
+@csrf.csrf_protect
+def email(request):
+    if request.method == "POST":
+        contactform = ContactForm(request.POST)
+        recipients = []
+        if contactform.is_valid():
+            subject = contactform.cleaned_data['subject']
+            message = contactform.cleaned_data['message']
+            sender = contactform.cleaned_data['sender']
+            recipients.append(sender)
+            print subject
+            print message
+            print sender
+            print recipients
+            from django.core.mail import send_mail
+            send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, recipients)
+            return HttpResponse('send mail success')
     else:
-        form = UploadFileForm()
-    return render_to_response('upload.html', {'form': form})
+        contactform = ContactForm()
+
+    data = {
+        "contactform":contactform,
+    }
+    return render(request,'home/email.html',data)

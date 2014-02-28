@@ -1,0 +1,20 @@
+{% extends "base/base.html" %}
+{% load i18n %}
+
+{% block content %}
+<form enctype="multipart/form-data" method='post',action='/uploadfile/'>
+    {% csrf_token %}
+    <p>{{ uploadform.non_field_errors }}</p>
+    <p>
+    {{uploadform.title.errors}}
+    {{uploadform.title.label_tag}}
+    {{uploadform.title}}
+    {{uploadform.title.help_text}}
+    </p>
+    <p>
+    {{ uploadform.pic.errors }} 
+    {{uploadform.pic}}
+    </p>
+    <input type="submit",value="提交">
+</form>
+{% endblock %}

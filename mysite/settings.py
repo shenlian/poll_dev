@@ -11,7 +11,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+     ('shenlian', '1019947054@qq.com'),
 )
 
 MANAGERS = ADMINS
@@ -145,6 +145,39 @@ INSTALLED_APPS = (
     'home',
 )
 
+#Uploadfile configuration
+FILE_UPLOAD_HANDLERS = (
+    "django.core.files.uploadhandler.MemoryFileUploadHandler",
+    "django.core.files.uploadhandler.TemporaryFileUploadHandler",
+)
+
+FILE_UPLOAD_TEMP_DIR = (
+    join(MEDIA_ROOT,'tmp')
+)
+
+# FILE_UPLOAD_MAX_MEMORY_SIZE = 8 *1024 * 1024
+
+#Email settings for 163 email 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+SERVER_EMAIL = "innovation_dut@163.com"
+EMAIL_SUBJECT_PREFIX = '[shenliandjangotest]'
+EMAIL_HOST = 'smtp.163.com'               
+EMAIL_PORT = '25'                         
+EMAIL_HOST_USER = 'innovation_dut@163.com'    
+EMAIL_HOST_PASSWORD = 'dutsie' 
+DEFAULT_FROM_EMAIL = 'innovation_dut@163.com'   
+EMAIL_USE_TLS = False
+
+#Email settings for dut email 
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# SERVER_EMAIL = "shlian@mail.dlut.edu.cn"
+# EMAIL_SUBJECT_PREFIX = '[shenliandjangotest]'
+# EMAIL_HOST = 'mail.dlut.edu.cn'
+# EMAIL_PORT = '25'
+# EMAIL_HOST_USER = 'shlian@mail.dlut.edu.cn'
+# EMAIL_HOST_PASSWORD = '09031632'
+# DEFAULT_FROM_EMAIL = 'shlian@mail.dlut.edu.cn'
+# EMAIL_USE_TLS = False
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error when DEBUG=False.

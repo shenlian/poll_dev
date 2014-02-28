@@ -1,5 +1,5 @@
 # Create your views here.
-#coding = UTF-8
+# coding=utf-8
 """
     Author : Shenlian
     Time:2013-12-29
@@ -7,12 +7,14 @@
 
 
 
-from django.shortcuts import render_to_response,get_object_or_404
+from django.shortcuts import render_to_response,get_object_or_404, render
 from django.http import HttpResponse,HttpResponseRedirect
 from django.template import RequestContext
 from django.core.urlresolvers import reverse
+from django.views.decorators import csrf
 
-from polls.models import Poll , Choice
+from polls.models import Poll , Choice, Person
+from polls.form import *
 
 # detail(request=<HttpRequest object>, poll_id='23')
 # def index(request):
@@ -43,3 +45,27 @@ def  vote(request, poll_id):
         selected_choice.votes += 1
         selected_choice.save()
         return HttpResponseRedirect(reverse('poll_results',args=(p.id,)))
+
+@csrf.csrf_protect
+def person(request):
+    if request.POST:
+        #save the existing object
+        # person = Person.objects.get(pk = 5)
+        # personform = PersonForm(request.POST,instance = person)
+        #save new object
+        personform = PersonForm(request.POST)
+        if personform.is_valid():
+            # person = Person()
+            # person.first_name = personform.cleaned_data['first_name']
+            # person.last_name = personform.cleaned_data['last_name']
+            # person.shirt_size = personform.cleaned_data['shirt_size']
+            # person.save()
+            personform.save()
+            return HttpResponse(u'数据保存成功哦！')
+    else:
+        personform = PersonForm()
+
+    data = {
+        'personform':personform,
+    }
+    return render(request,'polls/person.html',data)
