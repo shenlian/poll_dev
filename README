@@ -1,0 +1,6 @@
+# Environment 
+ * Please, execute this cmd: **sudo pip install -r requirements.txt**
+
+# How to install
+
+ 1. create database in mysql: create database PollsManagement character SET utf8;
