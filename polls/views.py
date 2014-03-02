@@ -12,6 +12,7 @@ from django.http import HttpResponse,HttpResponseRedirect
 from django.template import RequestContext
 from django.core.urlresolvers import reverse
 from django.views.decorators import csrf
+from django.contrib.auth.decorators import login_required
 
 from polls.models import Poll , Choice, Person
 from polls.form import *

@@ -143,6 +143,7 @@ INSTALLED_APPS = (
     'polls',
     'backend',
     'home',
+    'account',
 )
 
 #Uploadfile configuration
@@ -178,6 +179,13 @@ EMAIL_USE_TLS = False
 # EMAIL_HOST_PASSWORD = '09031632'
 # DEFAULT_FROM_EMAIL = 'shlian@mail.dlut.edu.cn'
 # EMAIL_USE_TLS = False
+
+
+#UserProfile
+# AUTH_PROFILE_MODULE = 'accounts.UserProfile'
+LOGIN_URL = '/registration/logout/'
+
+
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error when DEBUG=False.

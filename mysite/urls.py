@@ -22,6 +22,7 @@ urlpatterns = patterns('',
     url(r'^email/$','home.views.email'), 
     url(r'^uploadfile/$','home.views.uploadfile'),
     url(r'^polls/',include('polls.urls'),),
+    url(r'^registration/',include('registration.urls'),),
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 )

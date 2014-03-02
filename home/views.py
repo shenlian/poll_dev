@@ -8,6 +8,7 @@ from django.shortcuts import render_to_response,get_object_or_404 ,render
 from django.template import RequestContext
 from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.views.decorators import csrf
+from django.contrib.auth.decorators import login_required
 # Imaginary function to handle an uploaded file.
 from backend.utility import handle_uploaded_file
 from polls.form import *
@@ -37,8 +38,12 @@ def storePic(fileobj):
     newdoc=Pic(pic=fileobj["pic"])
     newdoc.save()
 
+@login_required
 @csrf.csrf_protect
 def email(request):
+    print request.user
+    if request.user.is_authenticated():
+        print 'logined success'
     if request.method == "POST":
         contactform = ContactForm(request.POST)
         recipients = []
