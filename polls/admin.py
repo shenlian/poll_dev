@@ -22,6 +22,6 @@ class PollAdmin(admin.ModelAdmin):
     search_fields = ['question']
 
 admin.site.register(Poll, PollAdmin)
-RegisterClass=(Person,Group,Membership)
+RegisterClass=(Person,Group,Membership,Choice)
 for temp in RegisterClass:
     admin.site.register(temp)

@@ -9,6 +9,7 @@ from django.template import RequestContext
 from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.views.decorators import csrf
 from django.contrib.auth.decorators import login_required
+from django.utils.translation import ugettext 
 # Imaginary function to handle an uploaded file.
 from backend.utility import handle_uploaded_file
 from polls.form import *
@@ -58,7 +59,8 @@ def email(request):
             print recipients
             from django.core.mail import send_mail
             send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, recipients)
-            return HttpResponse('send mail success')
+            message=ugettext("Welcome to my site.")
+            return HttpResponse(message)
     else:
         contactform = ContactForm()
 
