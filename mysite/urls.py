@@ -1,11 +1,12 @@
 from django.conf.urls import patterns, include, url
 from django.conf.urls.defaults import *
+from dajaxice.core import dajaxice_autodiscover, dajaxice_config
 import settings
 
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
-
+dajaxice_autodiscover()
 admin.autodiscover()
 
 handler404 = 'backend.errorviews.error404'
@@ -25,6 +26,7 @@ urlpatterns = patterns('',
     url(r'^registration/',include('registration.urls'),),
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
+	url(dajaxice_config.dajaxice_url,include('dajaxice.urls')),
 )
 
 # for develop to serve user-upload content in MEDIA_ROOT

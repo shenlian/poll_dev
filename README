@@ -250,3 +250,5 @@ nmap <silent> <F3> ,x
 vmap <silent> <F3> ,x
 imap <silent> <F3> ,x
 "----------------------------------------------------"
+安装
+sudo pip install -r requirements.txt

@@ -1,12 +1,14 @@
 {% extends "registration/widgets/baseback.html" %}
 
 {%block form-content%}
+
+	<link href="{{STATIC_URL}}style/registration/login.css" type="text/css"  rel="stylesheet">
 	<form  class="form-signin form-horizontal" method="post" action="{% url auth_login %}?next=/email/">
 		{% csrf_token %}
-		<h2 class="login">欢迎登录创新创业训练管理平台</h2>			
+		<h2 class="login form-signin-heading ">Welcome To Login </h2>			
     <br/>
 		{% include 'base/_form.html' %}			
-    <button class="btn btn-large btn-success pull-right" id="login-button" type="submit">登陆</button>
-		<p class="forget-text">想不起来密码了？<a href="#">点击重置</a>!</p>
+    <button class="btn btn-large btn-success pull-right" id="login-button" type="submit">Login</button>
+		<p class="forget-text">forget password?<a href="#">reset password</a>!</p>
 	</form>	
 {%endblock%}

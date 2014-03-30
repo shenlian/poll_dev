@@ -12,7 +12,7 @@
         {% if field.field.required %}{{ field.label }} 
         {% else %} {{ field.label_tag }}  {% endif %}
       </label>
-      <div  class="controls ">
+      <div>
         {{ field }}
         <p class="help-block">{{ field.help_text }}</p>
         {% for error in field.errors %}

@@ -2,19 +2,46 @@
 {% load i18n %}
 
 {% block content %}
-<h3>发送邮件</h3>
-<form enctype="multipart/form-data" method='post',action='/email/'>
-    {% csrf_token %}
-<!--     {{contactform.subject.label_tag}}
-    {{contactform.subject}}
-    {{contactform.message.label_tag}}
-    {{contactform.message}}
-    {{contactform.sender.label_tag}}
-    {{contactform.sender}}
-    {{contactform.cc_myself.label_tag}}
-    {{contactform.cc_myself}} -->
-    {{ contactform.as_p }}
-    <input type="submit",value="发送邮件">
-</form>
+<div class="span12">
+	<h3>发送邮件</h3>
+	<form enctype="multipart/form-data" method='post',action='/email/'>
+		{% csrf_token %}
+	<!--     {{contactform.subject.label_tag}}
+		{{contactform.subject}}
+		{{contactform.message.label_tag}}
+		{{contactform.message}}
+		{{contactform.sender.label_tag}}
+		{{contactform.sender}}
+		{{contactform.cc_myself.label_tag}}
+		{{contactform.cc_myself}} -->
+		{{ contactform.as_p }}
+		<input type="submit",value="发送邮件">
+	</form>
 
+    <input type="button" onclick="my_js()" id="haha" value="Dajaxice"></input>
+ <!-- Button trigger modal -->
+	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	  Launch demo modal
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
+<script type='text/javascript' src="{{STATIC_URL}}js/home/mail.js"></script>
 {% endblock %}
